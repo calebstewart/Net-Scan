@@ -37,7 +37,7 @@
     If ICMP packets are blocked on your network, this scan will not work. Hosts are only scanned if a ping is successful.
 
 .LINK
-    https://github.com/Caleb1994/PowershellScan
+    https://github.com/Caleb1994/Net-Scan
 
 .EXAMPLE
     Net-Scan -ip 192.168.0.0 -mask 255.255.255.0 -tcp 80
